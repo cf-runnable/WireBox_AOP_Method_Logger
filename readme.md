@@ -1,0 +1,5 @@
+WireBox AOP allows you to dynamically add code known as an "aspect" to methods to easily change how they behave at runtime.  This is done with minimal configuration and little to no changes in the target method itself.  Aspects "wrap" the execution of methods so they can provide their logic before and after the original method.  This is all done seamlessly by WireBox.
+
+In this example, the Method Logger Aspect is being mapped and bound to all event handlers.  The aspect will intercept all ColdBox events and log the arguments that were passed in.  That means that every time an event runs, a logger gets its wings.
+
+We'll be using a LogBox scope appender to capture the log data so we can watch it accumulate at the bottom of the page. Go ahead and navigate around the test site.  Every event you run will be automatically logged by our Method Logger Aspect.

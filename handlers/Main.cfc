@@ -1,0 +1,1 @@
+﻿// The methods in this CFC are all logged via the MethodLogger, but there's no logging code here!component extends='coldbox.system.EventHandler' {	function index(event, rc, prc) {	}		function anotherPage(event, rc, prc) {	}		function enlightenment(event, rc, prc) {	}}
